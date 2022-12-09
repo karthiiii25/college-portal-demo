@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 a1">
+        <app-header></app-header>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3 a2">
+        <app-navbar></app-navbar>
+        <a routerLink="home">home</a><br>
+        <a routerLink="attendence">attendence</a><br>
+        <a routerLink="feepayment">fees payment</a><br>
+        <a routerLink="examination">examination</a><br>
+        <a routerLink="logout">logout</a>
+    </div>
+    <div class="col-sm-6 a2">
+        <app-main></app-main>
+        <router-outlet></router-outlet>
+    </div>
+    <div class="col-sm-3 a2">
+         <app-sidebar></app-sidebar>
+         <a routerLink="proflie">profile</a>
+         
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 a5">
+         <app-footer></app-footer>
+    </div>
+  </div>
+</div>
